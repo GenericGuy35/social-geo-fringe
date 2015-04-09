@@ -1,5 +1,5 @@
 # social-geo-planter
-Finding the #DotNetFringe Twitter and #DotNetFringe Instragram crowd and displaying the learning, educating, and general good times of .NET Fringe
+Finding the [#DotNetFringe Twitter](https://twitter.com/hashtag/dotnetfringe) and [#DotNetFringe Instragram](https://instagram.com/explore/tags/dotnetfringe/) crowd and displaying the learning, educating, and general good times of the .NET Fringe Conference!
 
 ## APIs:
 
