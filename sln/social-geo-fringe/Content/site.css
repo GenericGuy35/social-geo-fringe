@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.body-content {
+  padding-top: 50px;
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden; }
+  .body-content .fullHeight {
+    height: 100%; }
+
+.navbar {
+  position: absolute;
+  margin-bottom: 0px;
+  width: 100%;
+  border-radius: 0px; }
+  .navbar .navbar-collapse {
+    z-index: 10000000;
+    width: 100%;
+    background-color: #222; }
+  @media (max-width: 768px) {
+    .navbar .navbar-collapse {
+      position: relative; } }
+
+/*# sourceMappingURL=site.css.map */

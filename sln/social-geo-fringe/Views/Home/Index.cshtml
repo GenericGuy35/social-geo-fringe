@@ -1,0 +1,11 @@
+﻿@using System.Web.Configuration
+@{
+    ViewBag.Title = "Home";    
+    ViewBag.NavSection = "Home";
+}
+<div class="row fullHeight">
+  <div data-components="Components.Map.Basic" class="fullHeight col-xs-12"
+       data-access-token="@WebConfigurationManager.AppSettings.Get("mapAccessToken")"
+       data-map-name="@WebConfigurationManager.AppSettings.Get("mapName")"
+       data-hashtag="@WebConfigurationManager.AppSettings.Get("hashtag")"></div>
+</div>
